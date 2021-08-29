@@ -1,10 +1,49 @@
 ﻿using System;
-using InhertanceDemoWork;
+
 
 namespace InheritanceDemo
 {
     class Program
     {
+        public class Employee
+        {
+            internal int empid;
+            public string fname;
+            public string lname;
+
+        }
+        public class SoftEng : Employee
+        {
+            public string Designation;
+            public void printSoftEnggDetails()
+            {
+                empid = 1001;
+                fname = "xyz";
+                lname = "pqr";
+                Console.WriteLine(empid);
+                Console.WriteLine(fname);
+                Console.WriteLine(lname);
+                Designation = "Software Engineer";
+                Console.WriteLine(Designation);
+            }
+        }
+        public class SenSoftEngg : SoftEng
+        {
+            public void printSenSofEnggTeDetails()
+            {
+                empid = 10002;
+                fname = "abc";
+                lname = "lmn";
+                Designation = "Senior Software Engineer";
+                Console.WriteLine(empid);
+                Console.WriteLine(fname);
+                Console.WriteLine(lname);
+
+                Console.WriteLine(Designation);
+
+            }
+
+        }
         static void Main(string[] args)
         {
             SoftEng SE = new SoftEng();
