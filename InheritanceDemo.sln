@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "InheritanceDemo.csproj", "{52D75BB9-6268-4057-9F8E-A188D1F08C85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InhertanceDemoWork", "..\InhertanceDemoWork\InhertanceDemoWork.csproj", "{14776300-E247-4CC0-BAD8-788D32B3FE77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D75BB9-6268-4057-9F8E-A188D1F08C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D75BB9-6268-4057-9F8E-A188D1F08C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D75BB9-6268-4057-9F8E-A188D1F08C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D75BB9-6268-4057-9F8E-A188D1F08C85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14776300-E247-4CC0-BAD8-788D32B3FE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14776300-E247-4CC0-BAD8-788D32B3FE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14776300-E247-4CC0-BAD8-788D32B3FE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14776300-E247-4CC0-BAD8-788D32B3FE77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB535608-05AC-472F-BE52-585BD5308B50}
+	EndGlobalSection
+EndGlobal
