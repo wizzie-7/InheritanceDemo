@@ -3,30 +3,31 @@
 
 namespace InheritanceDemo
 {
+    public class Employee
+    {
+        internal int empid;
+        public string fname;
+        public string lname;
+
+    }
+    public class SoftEng : Employee
+    {
+        public string Designation;
+        public void printSoftEnggDetails()
+        {
+            empid = 1001;
+            fname = "xyz";
+            lname = "pqr";
+            Console.WriteLine(empid);
+            Console.WriteLine(fname);
+            Console.WriteLine(lname);
+            Designation = "Software Engineer";
+            Console.WriteLine(Designation);
+        }
+    }
     class Program
     {
-        public class Employee
-        {
-            internal int empid;
-            public string fname;
-            public string lname;
-
-        }
-        public class SoftEng : Employee
-        {
-            public string Designation;
-            public void printSoftEnggDetails()
-            {
-                empid = 1001;
-                fname = "xyz";
-                lname = "pqr";
-                Console.WriteLine(empid);
-                Console.WriteLine(fname);
-                Console.WriteLine(lname);
-                Designation = "Software Engineer";
-                Console.WriteLine(Designation);
-            }
-        }
+        
         public class SenSoftEngg : SoftEng
         {
             public void printSenSofEnggTeDetails()
